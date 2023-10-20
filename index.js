@@ -1,9 +1,9 @@
 const hero = 'Zyglephornix Nebuloflux';
 let hp = 100;
-let xp = 2001;
+let xp = 20;
 let xpNivel;
 
-if (xp < 1000) {
+if (xp <= 1000) {
   xpNivel = 'Ferro';
 } else if (xp >= 1001 && xp <= 2000) {
   xpNivel = 'Bronze';
